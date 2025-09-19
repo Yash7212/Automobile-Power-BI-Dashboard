@@ -1,0 +1,60 @@
+table Norway_car_sales_by_make
+	lineageTag: b83d227d-41b7-4a89-9df6-2dfbbe1bcad4
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: b003a073-0b44-4753-993b-8a8ae9698d0d
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: int64
+		formatString: 0
+		lineageTag: 64743318-a8f8-4bca-b5d8-0e9d701d0630
+		summarizeBy: sum
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column Make
+		dataType: string
+		lineageTag: bebed22f-7e83-451c-bea3-b37007da7c44
+		summarizeBy: none
+		sourceColumn: Make
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 25e9e584-a118-4bec-bd07-e869b8805da3
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column Pct
+		dataType: double
+		lineageTag: fecf475a-7a60-4c4e-87d6-1820e992bb57
+		summarizeBy: sum
+		sourceColumn: Pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Norway_car_sales_by_make = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\hp\Downloads\Norway_car_sales_by_make.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Year", Int64.Type}, {"Month", Int64.Type}, {"Make", type text}, {"Quantity", Int64.Type}, {"Pct", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

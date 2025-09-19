@@ -1,0 +1,8 @@
+relationship 6be67d4e-094c-288f-18ed-1c32badd5650
+	fromColumn: Norway_car_sales_by_make.Make
+	toColumn: 'Brands_Master Data'.Column1
+
+relationship bf5ddb13-f62c-c679-9f09-60b7751ba985
+	fromColumn: cars_dataset.Make
+	toColumn: 'Brands_Master Data'.Column1
+

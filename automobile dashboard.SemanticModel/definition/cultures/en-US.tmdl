@@ -1,0 +1,2019 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "norway_car_sale_by_make": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Norway_car_sales_by_make"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "norway car sale by make": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Norway_car_sales_by_make": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "car sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "norway car sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "norway car auction by make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "norway car transaction by make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "norway car auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "car auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "norway car transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "norway car deal by make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "norway car trade by make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "norway car vending by make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "norway car retailing by make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "norway car selling by make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Norway_car_sales_by_make",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "norway_car_sale_by_make.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Norway_car_sales_by_make",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make.make": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Norway_car_sales_by_make",
+			          "ConceptualProperty": "Make"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "make": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Norway_car_sales_by_make",
+			          "ConceptualProperty": "Quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make.pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Norway_car_sales_by_make",
+			          "ConceptualProperty": "Pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pct": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Brands_Master_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Brands_Master Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Brands_Master data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "brands_master information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "brands_master fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "brands_master info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "brands_master statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "brands_master document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "brands_master figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "brands_master record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "Brands_Master_data.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Brands_Master Data",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "Brands_Master_data.column_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Brands_Master Data",
+			          "ConceptualProperty": "Column2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "Brands_Master_data.column_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Brands_Master Data",
+			          "ConceptualProperty": "Column3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column3": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cars dataset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "car dataset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "cars_dataset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dataset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.model": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "model"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "model": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perfect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "classic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ideal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "representative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mockup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "representation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "simulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "replica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "copy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cars_dataset.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "penalty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.transmission": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "transmission"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transmission": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "broadcast": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "diffusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "conduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.mileage": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "mileage"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mileage": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "distance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "way": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stretch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "assistance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "benefit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "advantage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.fuel_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "fuelType"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fuel type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fuelType": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fuel category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fuel genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fuel manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fuel variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fuel brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "fuel class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.tax": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "tax"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tax": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "levy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "toll": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "due": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "excise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tariff": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.engine_size": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "engineSize"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "engine size": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engineSize": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "size": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "engine extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engine magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "engine scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "engine volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "engine dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "engine mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "cars_dataset.make": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cars_dataset",
+			          "ConceptualProperty": "Make"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "make": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "cars_dataset_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.price": {
+			          "Target": {
+			            "Entity": "cars_dataset.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "cars_dataset.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_cars_datasets_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_prices"
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Norway_car_sales_by_make"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "norway_car_sale_by_make": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make"
+			          }
+			        },
+			        "norway_car_sale_by_make.year": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "norway_car_sale_by_make"
+			            },
+			            "Object": {
+			              "Role": "norway_car_sale_by_make.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "norway_car_sale_by_make_have_years"
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Norway_car_sales_by_make"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "norway_car_sale_by_make": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make"
+			          }
+			        },
+			        "norway_car_sale_by_make.month": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "norway_car_sale_by_make"
+			            },
+			            "Object": {
+			              "Role": "norway_car_sale_by_make.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "norway_car_sale_by_make_have_months"
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "Norway_car_sales_by_make"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "norway_car_sale_by_make": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make"
+			          }
+			        },
+			        "norway_car_sale_by_make.quantity": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "norway_car_sale_by_make"
+			            },
+			            "Object": {
+			              "Role": "norway_car_sale_by_make.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "norway_car_sale_by_make_have_quantities"
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make_has_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "Norway_car_sales_by_make"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "norway_car_sale_by_make": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make"
+			          }
+			        },
+			        "norway_car_sale_by_make.pct": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make.pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "norway_car_sale_by_make"
+			            },
+			            "Object": {
+			              "Role": "norway_car_sale_by_make.pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "norway_car_sale_by_make_have_pcts"
+			        }
+			      ]
+			    },
+			    "Brands_Master_data_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Brands_Master Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Brands_Master_data": {
+			          "Target": {
+			            "Entity": "Brands_Master_data"
+			          }
+			        },
+			        "Brands_Master_data.column_1": {
+			          "Target": {
+			            "Entity": "Brands_Master_data.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Brands_Master_data"
+			            },
+			            "Object": {
+			              "Role": "Brands_Master_data.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Brands_Master_data_have_column_1"
+			        }
+			      ]
+			    },
+			    "Brands_Master_data_has_column_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Brands_Master Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Brands_Master_data": {
+			          "Target": {
+			            "Entity": "Brands_Master_data"
+			          }
+			        },
+			        "Brands_Master_data.column_2": {
+			          "Target": {
+			            "Entity": "Brands_Master_data.column_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Brands_Master_data"
+			            },
+			            "Object": {
+			              "Role": "Brands_Master_data.column_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Brands_Master_data_have_column_2"
+			        }
+			      ]
+			    },
+			    "Brands_Master_data_has_column_3": {
+			      "Binding": {
+			        "ConceptualEntity": "Brands_Master Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Brands_Master_data": {
+			          "Target": {
+			            "Entity": "Brands_Master_data"
+			          }
+			        },
+			        "Brands_Master_data.column_3": {
+			          "Target": {
+			            "Entity": "Brands_Master_data.column_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Brands_Master_data"
+			            },
+			            "Object": {
+			              "Role": "Brands_Master_data.column_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Brands_Master_data_have_column_3"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_model": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.model": {
+			          "Target": {
+			            "Entity": "cars_dataset.model"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.model"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_models"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.year": {
+			          "Target": {
+			            "Entity": "cars_dataset.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_years"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_transmission": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.transmission": {
+			          "Target": {
+			            "Entity": "cars_dataset.transmission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.transmission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_transmissions"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_mileage": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.mileage": {
+			          "Target": {
+			            "Entity": "cars_dataset.mileage"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.mileage"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_mileages"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_fuel_type": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.fuel_type": {
+			          "Target": {
+			            "Entity": "cars_dataset.fuel_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.fuel_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_fuel_types"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_tax": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.tax": {
+			          "Target": {
+			            "Entity": "cars_dataset.tax"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.tax"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_taxes"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_engine_size": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "cars_dataset.engine_size": {
+			          "Target": {
+			            "Entity": "cars_dataset.engine_size"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset.engine_size"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_engine_sizes"
+			        }
+			      ]
+			    },
+			    "norway_car_sale_by_make_has_Brands_Master_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Norway_car_sales_by_make"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "norway_car_sale_by_make": {
+			          "Target": {
+			            "Entity": "norway_car_sale_by_make"
+			          }
+			        },
+			        "Brands_Master_data": {
+			          "Target": {
+			            "Entity": "Brands_Master_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "norway_car_sale_by_make"
+			            },
+			            "Object": {
+			              "Role": "Brands_Master_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "norway_car_sale_by_make_have_Brands_Master_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Brands_Master_data"
+			            },
+			            "Object": {
+			              "Role": "norway_car_sale_by_make"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Brands_Master_data_have_norway_car_sale_by_make"
+			        }
+			      ]
+			    },
+			    "cars_dataset_has_Brands_Master_data": {
+			      "Binding": {
+			        "ConceptualEntity": "cars_dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cars_dataset": {
+			          "Target": {
+			            "Entity": "cars_dataset"
+			          }
+			        },
+			        "Brands_Master_data": {
+			          "Target": {
+			            "Entity": "Brands_Master_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cars_dataset"
+			            },
+			            "Object": {
+			              "Role": "Brands_Master_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cars_datasets_have_Brands_Master_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Brands_Master_data"
+			            },
+			            "Object": {
+			              "Role": "cars_dataset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Brands_Master_data_have_cars_datasets"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

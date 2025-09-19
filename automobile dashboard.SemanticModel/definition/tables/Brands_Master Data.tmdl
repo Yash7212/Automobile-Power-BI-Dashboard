@@ -1,0 +1,46 @@
+table 'Brands_Master Data'
+	lineageTag: 543f53b6-6e78-46dc-9f45-dc4f772f1bc9
+
+	column Column1
+		dataType: string
+		lineageTag: c3f70c80-4a0d-4dc4-8f61-729634aaaaeb
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column2
+		dataType: string
+		lineageTag: 7f311c42-82d5-4b0b-bc77-0d6b01b6fbb2
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: Column2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column3
+		dataType: string
+		lineageTag: c47d75a4-5bba-445c-a571-9bb0e1bb6c13
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: Column3
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Brands_Master Data' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\hp\Downloads\cars_dataset.xlsx"), null, true),
+				    #"Brands_Master Data_Sheet" = Source{[Item="Brands_Master Data",Kind="Sheet"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(#"Brands_Master Data_Sheet",{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","VW","Volkswagen",Replacer.ReplaceText,{"Column1"})
+				in
+				    #"Replaced Value"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

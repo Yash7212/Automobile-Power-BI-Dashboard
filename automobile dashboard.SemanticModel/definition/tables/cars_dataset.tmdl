@@ -1,0 +1,97 @@
+table cars_dataset
+	lineageTag: 8ee82656-9413-47db-857c-f4800352ceb2
+
+	column model
+		dataType: string
+		lineageTag: bbd16cee-dc8a-4128-9022-58332c025520
+		summarizeBy: none
+		sourceColumn: model
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: d143bfd4-489f-4ae9-a93c-f0f957ed47b3
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: int64
+		formatString: 0
+		lineageTag: f0bdd904-632f-4e7a-8b9b-884b9a4b7726
+		summarizeBy: sum
+		sourceColumn: price
+
+		annotation SummarizationSetBy = Automatic
+
+	column transmission
+		dataType: string
+		lineageTag: 3af52edd-647a-4e8f-88d7-1277eb63c072
+		summarizeBy: none
+		sourceColumn: transmission
+
+		annotation SummarizationSetBy = Automatic
+
+	column mileage
+		dataType: int64
+		formatString: 0
+		lineageTag: bdd147ab-4a21-46b1-af44-dd1686aed440
+		summarizeBy: sum
+		sourceColumn: mileage
+
+		annotation SummarizationSetBy = Automatic
+
+	column fuelType
+		dataType: string
+		lineageTag: 588d15c4-f092-476e-a826-5016bc81975a
+		summarizeBy: none
+		sourceColumn: fuelType
+
+		annotation SummarizationSetBy = Automatic
+
+	column tax
+		dataType: int64
+		formatString: 0
+		lineageTag: e2c54bf4-ab8d-4e85-90bc-e1c3d6fff8ea
+		summarizeBy: sum
+		sourceColumn: tax
+
+		annotation SummarizationSetBy = Automatic
+
+	column engineSize
+		dataType: double
+		lineageTag: 0870c372-7d46-4325-8d7f-549cf01da4d4
+		summarizeBy: sum
+		sourceColumn: engineSize
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Make
+		dataType: string
+		lineageTag: 39e8810c-c652-4725-8330-973e83ff8965
+		summarizeBy: none
+		sourceColumn: Make
+
+		annotation SummarizationSetBy = Automatic
+
+	partition cars_dataset = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\hp\Downloads\cars_dataset.xlsx"), null, true),
+				    cars_dataset_Sheet = Source{[Item="cars_dataset",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(cars_dataset_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"model", type text}, {"year", Int64.Type}, {"price", Int64.Type}, {"transmission", type text}, {"mileage", Int64.Type}, {"fuelType", type text}, {"tax", Int64.Type}, {"engineSize", type number}, {"Make", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","volkswagen","Volkswagen",Replacer.ReplaceText,{"model"})
+				in
+				    #"Replaced Value"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+
